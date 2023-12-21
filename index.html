@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap UDC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- BARRE DE NAVIGATION -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light text-capitalize ">
+            <div class="container">
+                <a href="#" class="navbar-brand h1 text-primary mb-0 fs-2 ">linkit.</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class=" collapse navbar-collapse fs-5 " id="menu">
+                    <ul class="navbar-nav ms-auto px-5">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-current="page">landings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-current="page">pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-current="page">documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-current="page">compte</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="btn btn-lg btn-primary text-capitalaize up-animation" href="#">acheter maintenant</a>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- BARRE DE NAVIGATION -->
+
+
+    <!-- HÉROS -->
+    <section id="hero" class="pt-4 pt-md-11 toleft">
+        <div class="container pt-4">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 text-center text-md-start pb-3 order-md-1 order-sm-2">
+                    <h1 class="h1 display-3">
+                        Bienvenue sur <span class="text-primary">Linkit.</span>
+                        Développez tout.
+                    </h1>
+                    <small class="text-muted lead text-md-start mw-lg-75">
+                        Créez un site web moderne et magnifique avec des composants Bootstrap flexibles conçus à partir de zéro.
+                    </small>
+                    <div class="btns mt-5 my-lg-5">
+                        <a href="#" class="btn btn-primary btn-lg up-animation">
+                            Voir toutes les pages
+                        </a>
+                        <a href="#" class="btn btn-soft btn-lg mx-lg-2 up-animation">
+                            Documentation
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 order-md-1 order-sm-2 mt-5">
+                    <img class="img-fluid up-animation" src="./img/hero.svg" alt="image du héros" style="max-width: 90%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HÉROS -->
+    <div class="spacer-height "></div>
+    <!-- CARACTÉRISTIQUES  -->
+    <section id="features" class="my-5 toright ">
+        <div class="container ">
+            <div class="row text-center ">
+                <div class="col-md-4 col-sm-12 my-sm-3  up-animation">
+                    <div class="shadow-lg card bg-light p-3">
+                        <i class="fas fa-arrows-alt  text-primary " style="font-size: 3rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title my-3 ">
+                                Conçu pour les développeurs
+                            </h4>
+                            <p class="card-text text-muted">
+                                Landkit est conçu pour simplifier votre vie. Variables, outils de construction, documentation et composants réutilisables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12  my-sm-3 up-animation">
+                    <div class="shadow-lg card bg-light p-3">
+                        <i class="fas fa-box-open  text-primary " style="font-size: 3rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title my-3">
+                                Conçu pour être moderne
+                            </h4>
+                            <p class="card-text text-muted">
+                                Conçu en tenant compte des dernières tendances en matière de design. Landkit est moderne, minimaliste et magnifique.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12   my-sm-3 up-animation">
+                    <div class="shadow-lg card bg-light p-3">
+                        <i class="fab fa-artstation text-center text-primary " style="font-size: 3rem;"></i>
+                        <div class="card-body">
+                            <h4 class="card-title my-3">
+                                Documentation pour tout
+
+                            </h4>
+                            <p class="card-text text-muted">
+                                Nous avons rédigé une documentation complète pour les composants et les outils, donc vous n'aurez jamais à rétro-ingénieriser quoi que ce soit.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row my-5 up-animation">
+                <img src="./img/brands.PNG" alt="marques">
+            </div>
+        </div>
+    </section>
+    <!-- FONCTIONNALITÉS -->
+    <div class="spacer-height "></div>
+    <!-- À PROPOS -->
+    <section id="about" class="toup">
+        <div class="container">
+            <div class="row  justify-content-between">
+                <div class="col-lg-4 col-md-12 up-animation">
+                    <div class="card shadow-lg ">
+                        <img src="./img/about.jpg" alt="à propos" class="card-img-top rounded-1">
+                        <div class="card-body p-2">
+                            <form class="m-1 pt-4">
+                                <div class="input my-2">
+                                    <input type="text" class="form-control p-3 mb-3" placeholder="Nom...">
+                                </div>
+                                <div class="input my-2">
+                                    <input type="text" class="form-control p-3 mb-3" placeholder="Email...">
+                                </div>
+                                <div class="d-grid btn-form mt-4s">
+                                    <button class="btn btn-success btn-lg d-block text-capitalize"
+                                        type="button">télécharger simple</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12 mt-5 ">
+                    <h3 class="h1 fw-light">La ressource la plus utile
+                        <br><span class="text-success">jamais créée pour les développeurs.</span>
+                    </h3>
+                    <p class="lead">
+                        Utiliser Landkit pour construire votre site signifie ne jamais avoir à se soucier de concevoir une autre page ou de la compatibilité entre les navigateurs. Notre bibliothèque croissante de composants et de mises en page pré-conçues facilitera votre vie.
+                    </p>
+                    <ul class="lists my-4 p-2 pt-4">
+                        <li>
+                            Mises à jour à vie
+                        </li>
+                        <li>
+                            Support technique
+                        </li>
+                        <li>
+                            Une tonne de ressources
+                        </li>
+                        <li>
+                            Prêt à intégrer
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- À PROPOS -->
+    <div class="spacer-height mb-4"></div>
+    <!-- WEBUI  -->
+    <section id="webui" class="my-4 todown">
+        <div class="container my-4">
+            <div class="row mt-4 pt-5 ">
+                <div class="col-lg-5 col-sd-12 ">
+                    <h3 class="text-break">
+                        Nous avons beaucoup d'expérience
+                        <p class="text-success">dans la création de thèmes Bootstrap.</p>
+                    </h3>
+                    <p class="text-muted fs-lg w-75 ">
+                        Nous avons construit bien plus d'une douzaine de thèmes Bootstrap et vendu des dizaines de milliers de copies.
+                    </p>
+                        <div class="row mt-4 pt-4">
+                            <div class="col-2">
+                                <i class="fab fa-accusoft fs-2 text-primary"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="h5">
+                                    Utilisateurs de Bootstrap depuis le début
+                                </h4>
+                                <p class="text-muted">
+                                    Nous développons avec Bootstrap depuis sa sortie publique en 2011.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-2 pt-2">
+                            <div class="col-2 ">
+                                <i class="fab fa-angular fs-2 text-primary"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h4 class="h5">
+                                    Compréhension approfondie de Bootstrap
+                                </h4>
+                                <p class="text-muted">
+                                    Nous avons vu Bootstrap évoluer au fil des ans et le comprenons mieux que presque tout le monde.
+
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-7 col-md-12 up-animation ">
+                    <img src="./img/webui.PNG" alt="webui" class="img-fluid img-control shadow-lg mt-4 ">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- WEBUI  -->
+    <div class="spacer-height mb-4"></div>
+    <!-- ÉTAT  -->
+    <section id="state mt-4">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-sm-12 col-lg-6 up-animation toleft ">
+                    <img src="./img/state.svg" alt="" class="fluid w-100 mb-sm-4">
+                </div>
+                <div class="col-sm-12 col-lg-6 toright ">
+                    <h2 class="py-4">
+                        Restez concentré sur votre entreprise.
+                        <span class="text-primary d-block">Laissez-nous gérer la conception.</span>
+                    </h2>
+                    <p class="lead">
+                        Vous avez une entreprise à gérer. Arrêtez de vous soucier des bugs entre les navigateurs, de concevoir de nouvelles pages, de maintenir vos composants à jour. Laissez-nous le faire pour vous.
+                    </p>
+                    <div class="row text-left my-5 ">
+                        <div class="col">
+                            <h3>100%</h3>
+                            <span class="text-muted">Satisfaction</span>
+                        </div>
+                        <div class="col">
+                            <h3>24/ 7 </h3>
+                            <span class="text-muted">Support</span>
+                        </div>
+                        <div class="col">
+                            <h3>100k+</h3>
+                            <span class="text-muted">Ventes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ÉTAT  -->
+    <div class="spacer-height mb-4"></div>
+    <!-- PIED DE PAGE  -->
+    <footer id="shape" class="">
+        <div class="container p-3">
+            <div class="row">
+                <div class=" col-12 col-md-4 ">
+                    <a href="#" class="navbar-brand h1 text-primary mb-0 fs-2 text-capitalize">linkit.</a>
+                    <p class="mb-2">
+                        Une meilleure façon de construire.
+                    </p>
+                    <ul class="d-flex nav social pb-4">
+                        <li>
+                            <a href="#" class="fab fa-facebook-f fs-5 mr-2 ml-0"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fab fa-github-square fs-5 mx-2"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fab fa-linkedin fs-5 mx-2"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fab fa-google-play fs-5 mx-2"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fab fa-behance fs-5 mx-2"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-6 col-md-2 col-lg-2 pb-4">
+                    <h5>PRODUITS</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted ">Constructeur de page</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Kit UI</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Guide de style</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Documentation</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-6 col-md-2 col-lg-2">
+                    <h5>SERVICES</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted ">Constructeur de page</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Kit UI</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Documentation</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" col-6 col-md-2 col-lg-2">
+                    <h5>CONNECTER</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted ">Constructeur de page</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Kit UI</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Guide de style</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class=" col-6 col-md-2 col-lg-2">
+                    <h5>JURIDIQUE</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Kit UI</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Guide de style</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Documentation</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="nav-link text-muted">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- PIED DE PAGE  -->
+</body>
+
+</html>
